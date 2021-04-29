@@ -17,12 +17,7 @@ Authors:
 # Explanation of the code 
 
 
-
-
-
-
-
-
+* Team Members
 
 
 ```bash
