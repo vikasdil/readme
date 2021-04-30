@@ -66,7 +66,7 @@ headers = {
 ```
    
 
-![Plot of total home and away wins by the teams](Images/piechart.jpg)
+![Plot Piechart](Images/piechart.jpg)
 
 Now we are plotting a line graph of each day for perticular month.
 First we created an empty lists for diffrent parameter used in chart and later we append these lists.
@@ -110,6 +110,9 @@ def plotWorldLine():
     plt.legend()
     fig.savefig('world_case_line.jpg', dpi=1000)
 ```
+
+
+![Plot_lineGraph](Images/linegraph.jpg)
 In the third graph which is a bar graph in which we are comapring cases of various countries.
 Here we are comparing on basis of three parameters which are active cases, confirmed cases and death.
 We initialize the three variables and then we are adding values to those variables and lastly we are appending the final values to the list.
