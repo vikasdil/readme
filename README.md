@@ -160,4 +160,4 @@ Save fig command helps to save image in the directory of the jupyter notebook.
     compareCountries()
 ```
 
-![Plot bargraph](Images/bargraph.jpg =250x250)
+![Plot bargraph](Images/bargraph.jpg)
