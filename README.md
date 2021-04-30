@@ -18,6 +18,7 @@ The code, begins by importing necessary Python packages:
 
 
 
+```python
 import requests
 
 import json
@@ -29,6 +30,7 @@ import numpy as np
 from datetime import datetime
 
 import time
+```
 
 
 
@@ -37,15 +39,16 @@ Rapid API Covid-19 provides data of daily covid cases of various contries and it
 
 
 
-
+```
 headers = {
     'x-rapidapi-key': "9a9deff63amshe883f563b7b3a32p1ddb05jsn5fbdb945e9c7",
     'x-rapidapi-host': "covid-19-data.p.rapidapi.com"
     }
+```
 
  Now we are plotting pie chart which contain infromation about total confirmed, recoverd and death cases worldwide.
  Here we are using json to convert the data from web page in to text format.
- 
+
  
  
  
