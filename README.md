@@ -2,7 +2,7 @@
 Authors :- Jasminkumar Kantibhai Gondaliya, Parth Ajay Shah, Parth Himanshu Sampat, Vikas Dilip Patil
 
 
-#Inroduction
+# Intoduction
 
 The purpose of this project is to visualise the covid-19 data
 the type of data that is being imported is a confirmed, Active, Death & Recoverd cases of Covid-19 for various countries.
