@@ -20,15 +20,10 @@ The code, begins by importing necessary Python packages:
 
 ```python
 import requests
-
 import json
-
 import matplotlib.pyplot as plt
-
 import numpy as np
-
 from datetime import datetime
-
 import time
 ```
 
