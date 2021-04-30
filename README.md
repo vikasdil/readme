@@ -65,7 +65,9 @@ headers = {
     fig.savefig('world_case_pie.jpg', dpi=fig.dpi)
 ```
    
-   
+
+![Plot of total home and away wins by the teams](Images/piechart.jpg)
+
 Now we are plotting a line graph of each day for perticular month.
 First we created an empty lists for diffrent parameter used in chart and later we append these lists.
 02d is used to make the length of the string constant
