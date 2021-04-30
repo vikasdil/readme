@@ -159,3 +159,5 @@ Save fig command helps to save image in the directory of the jupyter notebook.
     plotWorldLine()
     compareCountries()
 ```
+
+![Plot bargraph](Images/bargraph.jpg)
