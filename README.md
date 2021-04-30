@@ -4,12 +4,12 @@ Authors :- Jasminkumar Kantibhai Gondaliya, Parth Ajay Shah, Parth Himanshu Samp
 
 # Intoduction
 
-The purpose of this project is to visualise the covid-19 data
+The purpose of this project is to visualize the covid-19 data
 the type of data that is being imported is a confirmed, Active, Death & Recoverd cases of Covid-19 for various countries.
 Data used for this projected is from the website "covid-19-data.p.rapidapi.com"
 #Explanation of the Code
-The first garph from the code shows the worldwide data of confirmed, recovered and death due to covide pandemic.
-The second graph indicate monthly data of confirmed, recovered, death and active cases.
+The first graph from the code shows the worldwide data of confirmed, recovered and death due to covid pandemic.
+The second graph indicates monthly data of confirmed, recovered, death and active cases.
 The final graph gives country wise information.
 
 The code, begins by importing necessary Python packages:
@@ -68,10 +68,10 @@ headers = {
 
 ![Plot Piechart](Images/piechart.jpg)
 
-Now we are plotting a line graph of each day for perticular month.
-First we created an empty lists for diffrent parameter used in chart and later we append these lists.
+Now we are plotting a line graph of each day for particular month.
+First we created an empty lists for different parameter used in chart and later we append these lists.
 02d is used to make the length of the string constant
-querystring = {"date":dateStr} is used to convert the string in to python redable date format.
+querystring = {"date":dateStr} is used to convert the string in to python readable date format.
 
 
 
@@ -113,7 +113,7 @@ def plotWorldLine():
 
 
 ![Plot_lineGraph](Images/linegraph.jpg)
-In the third graph which is a bar graph in which we are comapring cases of various countries.
+In the third graph which is a bar graph in which we are comparing cases of various countries.
 Here we are comparing on basis of three parameters which are active cases, confirmed cases and death.
 We initialize the three variables and then we are adding values to those variables and lastly we are appending the final values to the list.
 Save fig command helps to save image in the directory of the jupyter notebook.
